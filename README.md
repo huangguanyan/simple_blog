@@ -1,5 +1,6 @@
 # Simple blog.
 一个简单的 Flask 蓝图小栗子，使用纯粹的 SQL 语句进行数据处理  
+> 建议在虚拟环境下运行
 
 ```
 ProjectFolder:
@@ -7,7 +8,6 @@ ProjectFolder:
   | README.md
   | run.py
   | piplist.txt
-  | venv
   | src
   | - __init__.py
   | - config.py
