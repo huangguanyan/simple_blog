@@ -57,6 +57,6 @@ def serialize_sql_result(data):
 def standard_result(code, res, msg = ''):
     return {
         "code": code,
-        "data": json.loads(res),
+        "data": json.loads(res) if isinstance(res, str) else res,
         "msg": msg
     }
